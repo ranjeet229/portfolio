@@ -129,13 +129,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create placeholder for profile image if it doesn't exist
     const profileImg = document.querySelector('.hero-image img');
     if (profileImg && !profileImg.complete) {
-        profileImg.src = 'https://via.placeholder.com/400x500?text=Ranjeet+Kumar';
+        profileImg.src = 'https://ibb.co/RK402T0';
     }
     
     // Create placeholder for about image if it doesn't exist
     const aboutImg = document.querySelector('.about-image img');
     if (aboutImg && !aboutImg.complete) {
-        aboutImg.src = 'https://via.placeholder.com/500x600?text=About+Me';
+        aboutImg.src = 'https://ibb.co/9mnYW3pS';
     }
     
     // Create placeholder for project images if they don't exist
@@ -143,9 +143,9 @@ document.addEventListener('DOMContentLoaded', function() {
     projectImgs.forEach((img, index) => {
         if (!img.complete) {
             if (index === 0) {
-                img.src = 'https://via.placeholder.com/600x400?text=Audio+Player+Project';
+                img.src = 'https://ibb.co/RTD9y0g8';
             } else {
-                img.src = 'https://via.placeholder.com/600x400?text=AI+Image+Generator+Project';
+                img.src = 'https://ibb.co/3ytrs96H';
             }
         }
     });
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create placeholder for resume preview if it doesn't exist
     const resumeImg = document.querySelector('.resume-image img');
     if (resumeImg && !resumeImg.complete) {
-        resumeImg.src = 'https://via.placeholder.com/600x800?text=Resume+Preview';
+        resumeImg.src = 'https://ibb.co/TxwZH6GC';
     }
 });
 
