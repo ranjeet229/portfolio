@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Create placeholder for profile image if it doesn't exist
     const profileImg = document.querySelector('.hero-image img');
     if (profileImg && !profileImg.complete) {
-        profileImg.src = 'https://ibb.co/RK402T0';
+        profileImg.src = 'https://ibb.co/Hf8Sjr07';
     }
     
     // Create placeholder for about image if it doesn't exist
