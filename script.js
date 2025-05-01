@@ -7,6 +7,14 @@ window.addEventListener('load', function() {
     }, 500);
 });
 
+document.getElementById('download-cv').addEventListener('click',(e)=>{
+    e.preventDefault();
+    console.log("Opening cv");
+
+    window.open(this.href,'_blank');
+})
+
+
 // Mobile Navigation
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
